@@ -1,0 +1,166 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 22-23-2021-dk_Rectangular-Connectors-Headers-Male-Pins
+#
+DEF 22-23-2021-dk_Rectangular-Connectors-Headers-Male-Pins J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "22-23-2021-dk_Rectangular-Connectors-Headers-Male-Pins" 50 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" 200 300 60 H I L CNN
+F4 "WM4200-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "22-23-2021" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 2POS 2.54MM" 200 1000 60 H I L CNN "Description"
+F11 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2N7002-dk_Transistors-FETs-MOSFETs-Single
+#
+DEF 2N7002-dk_Transistors-FETs-MOSFETs-Single Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "2N7002-dk_Transistors-FETs-MOSFETs-Single" 136 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" 200 300 60 H I L CNN
+F4 "2N7002NCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "2N7002" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET N-CH 60V 115MA SOT-23" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# JS202011SCQN-dk_Slide-Switches
+#
+DEF JS202011SCQN-dk_Slide-Switches S 0 0 Y Y 1 F N
+F0 "S" -150 325 50 H V C CNN
+F1 "JS202011SCQN-dk_Slide-Switches" 0 -450 50 H V C CNN
+F2 "digikey-footprints:Switch_Slide_JS202011SCQN" 200 200 50 H I L CNN
+F3 "https://www.ckswitches.com/media/1422/js.pdf" 200 300 60 H I L CNN
+F4 "401-2002-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "JS202011SCQN" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Slide Switches" 200 700 60 H I L CNN "Family"
+F8 "https://www.ckswitches.com/media/1422/js.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/c-k/JS202011SCQN/401-2002-1-ND/1640098" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH SLIDE DPDT 300MA 6V" 200 1000 60 H I L CNN "Description"
+F11 "C&K" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -100 -200 18 0 1 0 F
+C -100 200 18 0 1 0 F
+C 100 -300 18 0 1 0 F
+C 100 -100 18 0 1 0 F
+C 100 100 18 0 1 0 F
+C 100 300 18 0 1 0 F
+P 2 0 1 0 -80 -200 130 -110 N
+P 2 0 1 0 -80 200 130 290 N
+P 2 0 1 10 0 -150 0 -165 N
+P 2 0 1 10 0 -100 0 -125 N
+P 2 0 1 10 0 -50 0 -75 N
+P 2 0 1 10 0 0 0 -25 N
+P 2 0 1 10 0 50 0 25 N
+P 2 0 1 10 0 100 0 75 N
+P 2 0 1 10 0 150 0 125 N
+P 2 0 1 10 0 200 0 175 N
+P 2 0 1 10 0 235 0 225 N
+X ~ 1 200 300 100 L 50 50 1 1 P
+X ~ 2 -200 200 100 R 50 50 1 1 P
+X ~ 3 200 100 100 L 50 50 1 1 P
+X ~ 4 200 -100 100 L 50 50 1 1 P
+X ~ 5 -200 -200 100 R 50 50 1 1 P
+X ~ 6 200 -300 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LM317T-dk_PMIC-Voltage-Regulators-Linear
+#
+DEF LM317T-dk_PMIC-Voltage-Regulators-Linear U 0 40 Y Y 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "LM317T-dk_PMIC-Voltage-Regulators-Linear" 0 250 60 H V C CNN
+F2 "digikey-footprints:TO-220-3" 200 200 60 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf" 200 300 60 H I L CNN
+F4 "497-1575-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LM317T" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/stmicroelectronics/LM317T/497-1575-5-ND/591677" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LIN POS ADJ 1.5A TO220AB" 200 1000 60 H I L CNN "Description"
+F11 "STMicroelectronics" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 200 -200 0 1 0 f
+X ADJ 1 0 -300 100 U 50 50 1 1 I
+X OUT 2 300 0 100 L 50 50 1 1 w
+X IN 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# SN74LVC1G14DBVR-dk_Logic-Gates-and-Inverters
+#
+DEF SN74LVC1G14DBVR-dk_Logic-Gates-and-Inverters U 0 0 Y Y 1 F N
+F0 "U" -100 140 60 H V R CNN
+F1 "SN74LVC1G14DBVR-dk_Logic-Gates-and-Inverters" -20 -150 60 H V L CNN
+F2 "digikey-footprints:SOT-753" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g14" 200 300 60 H I L CNN
+F4 "296-11607-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "SN74LVC1G14DBVR" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Logic - Gates and Inverters" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g14" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/SN74LVC1G14DBVR/296-11607-1-ND/385746" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC INVERTER SCHMITT 1CH SOT23-5" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 10 0 10 0 1 0 N
+S -200 100 100 -100 0 1 0 f
+P 2 0 1 0 -100 0 -200 0 N
+P 2 0 1 0 100 0 20 0 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 N
+X NC 1 -100 0 100 R 50 50 1 1 N N
+X A 2 -300 0 100 R 50 50 1 1 I
+X GND 3 -100 -200 100 U 50 50 1 1 W
+X Y 4 200 0 100 L 50 50 1 1 O
+X VCC 5 0 200 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

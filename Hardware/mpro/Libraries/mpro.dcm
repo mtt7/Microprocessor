@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD74HC00M96
+D Quad 2 input NAND
+K NAND
+$ENDCMP
+#
+$CMP CD74HC02M96
+D Quad 2 input NOR 14 Ld SOIC
+K NOR
+$ENDCMP
+#
+$CMP CD74HC195M96
+D Parallel shift register
+K register
+$ENDCMP
+#
+$CMP CD74HC283M96
+D Full Adder
+K adder
+$ENDCMP
+#
+$CMP CD74HC86M96
+D Quad 2 input XOR
+K XOR
+$ENDCMP
+#
+$CMP SN74HC157DR
+D 8 to 4 multiplexer
+K MUX. multiplexer
+$ENDCMP
+#
+#End Doc Library

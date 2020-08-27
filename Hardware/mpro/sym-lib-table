@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name mpro)(type Legacy)(uri ${KIPRJMOD}/Libraries/mpro.lib)(options "")(descr ""))
+  (lib (name mpro-rescue)(type Legacy)(uri ${KIPRJMOD}/mpro-rescue.lib)(options "")(descr ""))
+)
